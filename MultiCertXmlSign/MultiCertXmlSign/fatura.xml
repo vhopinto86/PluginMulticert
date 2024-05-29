@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:feap.gov.pt:CIUS-PT:1.0.6.</cbc:CustomizationID>
+  <cbc:ID>FT_2021_1110</cbc:ID>
+  <cbc:IssueDate>2021-02-10</cbc:IssueDate>
+  <cbc:DueDate>2021-02-10</cbc:DueDate>
+  <cbc:InvoiceTypeCode>FT</cbc:InvoiceTypeCode>
+  <cbc:Note>#NUMBER@ATCERTIFIEDPROGRAM#2803/AT#</cbc:Note>
+  <cbc:Note>#HASHCODE@ATCERTIFIEDPROGRAM#cJof#</cbc:Note>
+  <cbc:Note>#DESCRIPTION@ATCERTIFIEDPROGRAM#cJof-Processado por programa certificado n.2803/AT#</cbc:Note>
+  <cbc:TaxPointDate>2021-02-10</cbc:TaxPointDate>
+  <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+  <cbc:TaxCurrencyCode>EUR</cbc:TaxCurrencyCode>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2021-02-10</cbc:StartDate>
+    <cbc:EndDate>2021-02-10</cbc:EndDate>
+  </cac:InvoicePeriod>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="EMAIL">vitor.pinto@gestware.pt</cbc:EndpointID>
+      <cac:PostalAddress>
+        <cbc:StreetName>Rua Domingos Sequeira, 52</cbc:StreetName>
+        <cbc:CityName>Porto</cbc:CityName>
+        <cbc:PostalZone>4050-230</cbc:PostalZone>
+        <cbc:CountrySubentity>Porto</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>PT</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>505767457</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Gestware - Comércio de Software, Lda</cbc:RegistrationName>
+        <cbc:CompanyLegalForm>5000</cbc:CompanyLegalForm>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Telephone>(+351) 22 600 36 62</cbc:Telephone>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="0001">0000001</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PostalAddress>
+        <cbc:StreetName>R Armazéns 111</cbc:StreetName>
+        <cbc:CityName>Porto</cbc:CityName>
+        <cbc:PostalZone>4200-038</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>PT</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>213416565</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Leila Silva Cunha</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="0001">PT213416565</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:Delivery>
+    <cac:DeliveryLocation>
+      <cac:Address>
+        <cbc:StreetName>R Armazéns 111</cbc:StreetName>
+        <cbc:CityName>Porto</cbc:CityName>
+        <cbc:PostalZone>4200-038</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>PT</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+  </cac:Delivery>
+  <cac:PaymentTerms>
+    <cbc:Note>Pronto Pagamento</cbc:Note>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="EUR">1.12</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="EUR">4.88</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="EUR">1.12</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>NOR</cbc:ID>
+        <cbc:Percent>23.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="EUR">4.88</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="EUR">4.88</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="EUR">6.00</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="EUR">0.00</cbc:AllowanceTotalAmount>
+    <cbc:PayableAmount currencyID="EUR">6.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="C62">5.000</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="EUR">4.87805</cbc:LineExtensionAmount>
+    <cac:InvoicePeriod>
+      <cbc:StartDate>2021-02-10</cbc:StartDate>
+      <cbc:EndDate>2021-02-10</cbc:EndDate>
+    </cac:InvoicePeriod>
+    <cac:Item>
+      <cbc:Name>CERVEJA</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>000001</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>NOR</cbc:ID>
+        <cbc:Percent>23.00</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="EUR">0.97561</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>
